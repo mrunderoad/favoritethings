@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Favorite things!</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Fill in the blanks about your favorite things!</h1>
+    <div>
+      <form id="formOne">
+        <div class="form-group">
+          <label for="food">Favorite food</label>
+          <input name="food[1]" id="food" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="band">Favorite band</label>
+          <input name="band[1]" id="band" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="animal">Favorite animal</label>
+          <input name="animal[1]" id="animal" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="ice">Favorite ice cream</label>
+          <input name="ice[1]" id="ice" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn">Show me the goods!</button>
+      </form>
+      <ul>
+        <li><span class="food"></span></li>
+        <li><span class="band"></span></li>
+        <li><span class="animal"></span></li>
+        <li><span class="ice"></span></li>
+      </ul>
+    </div>
+  </body>
+  </html>
